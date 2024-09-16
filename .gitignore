@@ -1,0 +1,57 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+*.iml
+*.idea
+*.classpath
+*.project
+
+# Build directories
+target/
+project/target/
+project/project/
+project/target/
+*.swp
+
+# Play Framework specific files
+conf/application.conf
+conf/production.conf
+conf/dev.conf
+conf/test.conf
+
+# IntelliJ IDEA files
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# SBT files
+/.bsp
+/.bsp/
+/.metals
+/.bloop
+/.vscode
+
+# sbt and play framework specific files
+*.sbt
+*.sbt.boot.properties
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Environment files
+.env
+
+# Dependency directories
+*.ivy2
+*.coursier

@@ -1,0 +1,26 @@
+# Define la ruta para la raíz del sitio web
+GET     /           controllers.HomeController.index()
+
+# Rutas para SegmentController
+GET     /segments                  controllers.SegmentController.list()
+POST    /segments                  controllers.SegmentController.create(request: play.mvc.Http.Request)
+GET     /segments/:id              controllers.SegmentController.show(id: String)
+PUT     /segments/:id              controllers.SegmentController.update(id: String, request: play.mvc.Http.Request)
+DELETE  /segments/:id              controllers.SegmentController.delete(id: String)
+
+
+
+# Rutas para CalzadaController
+GET     /calzadas                  controllers.CalzadaController.list()
+POST    /calzadas                  controllers.CalzadaController.create(request: play.mvc.Http.Request)
+GET     /calzadas/:id              controllers.CalzadaController.show(id: String)
+PUT     /calzadas/:id              controllers.CalzadaController.update(id: String, request: play.mvc.Http.Request)
+DELETE  /calzadas/:id              controllers.CalzadaController.delete(id: String)
+
+
+# Rutas para BordilloController
+GET     /bordillos                  controllers.BordilloController.list()
+POST    /bordillos                  controllers.BordilloController.create(request: play.mvc.Http.Request)
+GET     /bordillos/:id              controllers.BordilloController.show(id: String)
+PUT     /bordillos/:id              controllers.BordilloController.update(id: String, request: play.mvc.Http.Request)
+DELETE  /bordillos/:id              controllers.BordilloController.delete(id: String)
